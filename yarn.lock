@@ -467,7 +467,7 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/plugin-syntax-jsx" "^7.2.0"
 
-"@babel/plugin-transform-react-jsx@^7.0.0":
+"@babel/plugin-transform-react-jsx@^7.0.0", "@babel/plugin-transform-react-jsx@^7.3.0":
   version "7.3.0"
   resolved "https://registry.yarnpkg.com/@babel/plugin-transform-react-jsx/-/plugin-transform-react-jsx-7.3.0.tgz#f2cab99026631c767e2745a5368b331cfe8f5290"
   dependencies:
@@ -3038,6 +3038,10 @@ next-server@8.0.3:
     prop-types "15.6.2"
     send "0.16.1"
     url "0.11.0"
+
+next-transpile-modules@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/next-transpile-modules/-/next-transpile-modules-2.1.0.tgz#e12891e273803fb9488b5ba54df5a8905b56b25a"
 
 next@^8.0.3:
   version "8.0.3"

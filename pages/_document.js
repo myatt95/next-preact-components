@@ -2,8 +2,8 @@
 // Event handlers like onClick can't be added to this file
 
 // ./pages/_document.js
+import React from 'react';
 import Document, { Main, NextScript } from 'next/document';
-import {Fragment} from "react";
 
 class MyDocument extends Document {
     static async getInitialProps(ctx) {
@@ -13,10 +13,10 @@ class MyDocument extends Document {
 
     render() {
         return (
-            <Fragment>
+            <span>
                 <Main />
                 <NextScript />
-            </Fragment>
+            </span>
         )
     }
 }

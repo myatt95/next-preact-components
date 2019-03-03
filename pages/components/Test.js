@@ -1,5 +1,9 @@
-import TestComponent from 'test-component';
+import { h, Component } from 'preact';
 
-export default function Test(props) {
-    return <TestComponent />;
+class Test extends Component {
+    render(props) {
+        return <h1>HELLO</h1>;
+    }
 }
+
+export default Test;
