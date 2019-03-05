@@ -11,7 +11,7 @@ const nextConfig = {
 
 module.exports = withPlugins([
     [withTM, {
-        transpileModules: [/* external modules that need to be transpiled here */]
+        transpileModules: ['@insurance/*', '@rentalcarsDev/*']
     }],
 
     withPreact,

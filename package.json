@@ -13,6 +13,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/plugin-proposal-export-default-from": "^7.2.0",
+    "@insurance/credit-card-cover-banner": "^1.1.10",
     "@zeit/next-preact": "^0.1.0",
     "@zeit/next-sass": "^1.0.1",
     "axios": "^0.18.0",
