@@ -1,5 +1,17 @@
 const path = require('path')
 
+
+/**
+ *
+ * COPY OF @zeit/next-preact
+ *
+ * This is just here until this module is released with createContext added
+ *
+ * This problem could also be solved with the release of Preact X (currently in alpha)
+ * which supports createContext in its api. However be cautious since preact-compat becomes
+ * an optional import as part of preact (preact/compat)
+ *
+ */
 module.exports = (nextConfig = {}) => {
     return Object.assign({}, nextConfig, {
         webpack(config, options) {
